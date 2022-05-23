@@ -1,0 +1,316 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option type="Map" name="children">
+    <Option type="Map" name="native:zonalstatistics_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:zonalstatistics" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="30" type="double" name="component_height"/>
+        <Option value="0" type="double" name="component_pos_x"/>
+        <Option value="0" type="double" name="component_pos_y"/>
+        <Option value="200" type="double" name="component_width"/>
+        <Option value="false" type="bool" name="outputs_collapsed"/>
+        <Option value="false" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Get_Max_Deth" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="470" type="double" name="component_pos_x"/>
+      <Option value="200" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option value="native:zonalstatistics_1" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="COLUMN_PREFIX">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="Max__Depth" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_RASTER">
+          <Option type="Map">
+            <Option value="bathylayer" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_VECTOR">
+          <Option type="Map">
+            <Option value="polygonlayer" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="RASTER_BAND">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="1" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="STATISTICS">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="List" name="static_value">
+              <Option value="6" type="int"/>
+            </Option>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:zonalstatistics_2">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:zonalstatistics" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="30" type="double" name="component_height"/>
+        <Option value="0" type="double" name="component_pos_x"/>
+        <Option value="0" type="double" name="component_pos_y"/>
+        <Option value="200" type="double" name="component_width"/>
+        <Option value="false" type="bool" name="outputs_collapsed"/>
+        <Option value="false" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Get_Mean_Depth" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="492" type="double" name="component_pos_x"/>
+      <Option value="299" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option value="native:zonalstatistics_2" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="COLUMN_PREFIX">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="Mean_Depth" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_RASTER">
+          <Option type="Map">
+            <Option value="bathylayer" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_VECTOR">
+          <Option type="Map">
+            <Option value="polygonlayer" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="RASTER_BAND">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="1" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="STATISTICS">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="List" name="static_value">
+              <Option value="2" type="int"/>
+            </Option>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:zonalstatistics_3">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:zonalstatistics" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="30" type="double" name="component_height"/>
+        <Option value="0" type="double" name="component_pos_x"/>
+        <Option value="0" type="double" name="component_pos_y"/>
+        <Option value="200" type="double" name="component_width"/>
+        <Option value="false" type="bool" name="outputs_collapsed"/>
+        <Option value="false" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Get_Min_Depth" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="482" type="double" name="component_pos_x"/>
+      <Option value="394" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option value="native:zonalstatistics_3" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="COLUMN_PREFIX">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="Min__Depth" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_RASTER">
+          <Option type="Map">
+            <Option value="bathylayer" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_VECTOR">
+          <Option type="Map">
+            <Option value="polygonlayer" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="RASTER_BAND">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="1" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="STATISTICS">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="List" name="static_value">
+              <Option value="5" type="int"/>
+            </Option>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:deletecolumn_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="qgis:deletecolumn" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="30" type="double" name="component_height"/>
+        <Option value="0" type="double" name="component_pos_x"/>
+        <Option value="0" type="double" name="component_pos_y"/>
+        <Option value="200" type="double" name="component_width"/>
+        <Option value="false" type="bool" name="outputs_collapsed"/>
+        <Option value="false" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Quitar campo(s)" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="133" type="double" name="component_pos_x"/>
+      <Option value="305" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option value="native:zonalstatistics_1" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:zonalstatistics_2" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+        <Option type="Map">
+          <Option value="native:zonalstatistics_3" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="conditional_branch"/>
+        </Option>
+      </Option>
+      <Option value="qgis:deletecolumn_1" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="COLUMN">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="StringList" name="static_value">
+              <Option value="Mean_Depth" type="QString"/>
+              <Option value="Max__Depth" type="QString"/>
+              <Option value="Min__Depth" type="QString"/>
+            </Option>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="polygonlayer" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="designerParameterValues"/>
+  <Option name="groupBoxes"/>
+  <Option name="help"/>
+  <Option name="modelVariables"/>
+  <Option value="" type="QString" name="model_group"/>
+  <Option value="Get_Mn_Max_Mean_Depth" type="QString" name="model_name"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="bathylayer">
+      <Option type="invalid" name="default"/>
+      <Option value="Raster_layer" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option value="" type="QString" name="help"/>
+      <Option name="metadata"/>
+      <Option value="bathylayer" type="QString" name="name"/>
+      <Option value="raster" type="QString" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="polygonlayer">
+      <Option type="List" name="data_types">
+        <Option value="2" type="int"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option value="Polygon_layer" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option value="" type="QString" name="help"/>
+      <Option name="metadata"/>
+      <Option value="polygonlayer" type="QString" name="name"/>
+      <Option value="vector" type="QString" name="parameter_type"/>
+    </Option>
+  </Option>
+  <Option name="parameterOrder"/>
+  <Option type="Map" name="parameters">
+    <Option type="Map" name="bathylayer">
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="30" type="double" name="component_height"/>
+        <Option value="0" type="double" name="component_pos_x"/>
+        <Option value="0" type="double" name="component_pos_y"/>
+        <Option value="200" type="double" name="component_width"/>
+        <Option value="false" type="bool" name="outputs_collapsed"/>
+        <Option value="false" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="bathylayer" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="135" type="double" name="component_pos_x"/>
+      <Option value="64" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option value="bathylayer" type="QString" name="name"/>
+      <Option value="false" type="bool" name="outputs_collapsed"/>
+      <Option value="false" type="bool" name="parameters_collapsed"/>
+    </Option>
+    <Option type="Map" name="polygonlayer">
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="30" type="double" name="component_height"/>
+        <Option value="0" type="double" name="component_pos_x"/>
+        <Option value="0" type="double" name="component_pos_y"/>
+        <Option value="200" type="double" name="component_width"/>
+        <Option value="false" type="bool" name="outputs_collapsed"/>
+        <Option value="false" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="polygonlayer" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="135" type="double" name="component_pos_x"/>
+      <Option value="119" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option value="polygonlayer" type="QString" name="name"/>
+      <Option value="false" type="bool" name="outputs_collapsed"/>
+      <Option value="false" type="bool" name="parameters_collapsed"/>
+    </Option>
+  </Option>
+</Option>
